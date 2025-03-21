@@ -1,4 +1,7 @@
 package org.example;
+
+import java.util.List;
+
 public class Fenster {
     private boolean offen;
 
@@ -10,6 +13,7 @@ public class Fenster {
 
     public void oeffneFenster() {
         offen = true;
+
     }
 
     public void schliesseFenster() {
